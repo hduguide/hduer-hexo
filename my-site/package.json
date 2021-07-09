@@ -1,0 +1,18 @@
+{
+  "name": "my-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.21",
+    "vuepress-plugin-yuque": "^0.6.1"
+  },
+  "scripts": {
+    "dev": "vuepress dev .",
+    "build": "vuepress build ."
+  },
+  "dependencies": {
+    "@vue/component-compiler-utils": "^3.2.2",
+    "@vuepress/shared-utils": "^1.8.2"
+  }
+}
