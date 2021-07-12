@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>CTF | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="来源此部分由 Vidar-Team 多位成员协同完成。现在 Vidar-Team 已建立官方账号 @杭电 Vidar-Team ，欢迎关注～ WHATCTF（Capture The Flag，夺旗赛）起源于 1996 年 DEFCON 全球黑客大会，是网络安全爱好者之间的游戏和一种交流手段。黑客模拟现实世界中的网络或者系统环境，通过题目的形式来与其他黑客学习交流。“旗”实际上就是一串字符(如：fl">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CTF">
+<meta property="og:url" content="https://hduguide.github.io/2021/07/04/CTF/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="来源此部分由 Vidar-Team 多位成员协同完成。现在 Vidar-Team 已建立官方账号 @杭电 Vidar-Team ，欢迎关注～ WHATCTF（Capture The Flag，夺旗赛）起源于 1996 年 DEFCON 全球黑客大会，是网络安全爱好者之间的游戏和一种交流手段。黑客模拟现实世界中的网络或者系统环境，通过题目的形式来与其他黑客学习交流。“旗”实际上就是一串字符(如：fl">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2021/png/2596791/1625368915298-899f3667-4b54-47c4-a453-673560adf5d0.png#clientId=ufc303325-32c4-4&from=paste&id=u679fb9c6&margin=%5Bobject%20Object%5D&name=image.png&originHeight=514&originWidth=720&originalType=url%E2%88%B6=1&size=457793&status=done&style=shadow&taskId=uf91e10b6-2ad4-44a7-83d5-15eeff00fb0">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2021/png/2596791/1625368915384-7c41a212-2618-46c3-80f6-fd9d01bec49b.png#clientId=ufc303325-32c4-4&from=paste&id=u917e9d13&margin=%5Bobject%20Object%5D&name=image.png&originHeight=405&originWidth=720&originalType=url%E2%88%B6=1&size=567704&status=done&style=none&taskId=u0b3bbef0-80c6-4dd4-ad0c-80f4b957ddd">
+<meta property="article:published_time" content="2021-07-04T03:21:26.000Z">
+<meta property="article:modified_time" content="2021-07-12T11:45:37.304Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.nlark.com/yuque/0/2021/png/2596791/1625368915298-899f3667-4b54-47c4-a453-673560adf5d0.png#clientId=ufc303325-32c4-4&from=paste&id=u679fb9c6&margin=%5Bobject%20Object%5D&name=image.png&originHeight=514&originWidth=720&originalType=url%E2%88%B6=1&size=457793&status=done&style=shadow&taskId=uf91e10b6-2ad4-44a7-83d5-15eeff00fb0">
+  
+    <link rel="alternate" href="/hduer/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/hduer/css/style.css">
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/hduer/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/hduer/">Home</a>
+        
+          <a class="main-nav-link" href="/hduer/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/hduer/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://hduguide.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-CTF" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/hduer/2021/07/04/CTF/" class="article-date">
+  <time datetime="2021-07-04T03:21:26.000Z" itemprop="datePublished">2021-07-04</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      CTF
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="来源"><a href="#来源" class="headerlink" title="来源"></a>来源</h1><p>此部分由 Vidar-Team 多位成员协同完成。<br>现在 Vidar-Team 已建立官方账号 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/abd9087ceaaf7efd84362b65f6239d70">@杭电 Vidar-Team</a> ，欢迎关注～</p>
+<h3 id="WHAT"><a href="#WHAT" class="headerlink" title="WHAT"></a>WHAT</h3><p><strong>CTF</strong>（Capture The Flag，夺旗赛）起源于 1996 年 <strong>DEFCON</strong> 全球黑客大会，是网络安全爱好者之间的游戏和一种交流手段。黑客模拟现实世界中的网络或者系统环境，通过题目的形式来与其他黑客学习交流。“旗”实际上就是一串字符(如：flag{H4cking_4or_Fun}），当你成功理解和学会出题的知识点时，就可以攻破系统，拿到系统中的 flag！<br>​</p>
+<p>在杭电有一个在 CTF 领域颇有成绩且面向全校招新的社团——<strong>Vidar-Team 信息安全实验室（信息安全协会）</strong>。关联一下今年 Vidar-Team 的招新文章：<br><strong>​</strong></p>
+<p><strong>关联问题：CTF 和 ACM 有什么区别？</strong><br>两者通过不同的角度理解计算机学科，ACM 侧重算法设计，CTF 侧重漏洞挖掘。两者在计算机相关的竞赛领域中，都是有着极高含金量与知名度的赛事。<br><strong>总结：CTF 也和 ACM 一样是一个需要兴趣支撑的比赛。ACM 聚焦于算法领域深耕细作，刷题是其中一项必需且高效的能力提升方式，CTF 面向的是安全领域，需要对现有的软件设计有深入了解，最终目的是进行现实世界中的安全研究，从这个角度上来说 CTF 只是一项提升安全技术的途径。两个竞赛都很有意思～</strong><br><strong>​</strong></p>
+<h3 id="WHY"><a href="#WHY" class="headerlink" title="WHY"></a>WHY</h3><p>无论你之前对<strong>网络安全</strong>有没有过兴趣，亦或是曾经对<strong>黑客技术</strong>有没有过向往，只要现在你想要尝试，都有机会从零开始踏入信息安全这个领域。<br>而 CTF 正是一个既好玩，又能带你快速进入信息安全世界的比赛，当你阅读框架文档，一步一步调试程序，最终找到了漏洞所在，跑完漏洞利用程序，拿到对方电脑控制权限时的快感是无与伦比的。<br>CTF 比赛是将知识和存在的漏洞模型凝练成考点，这种接近于实战的环境在平常是很难接触到的，以 CTF 为起点开始学习安全知识，或许可以让你有意想不到的收获。<br>毕业后可以选择入职 BAT 等互联网公司的安全部门，亦或是专注于安全的乙方安全公司，带着兴趣在职业的道路上继续学习，成为白帽子中的一员，共同推动网络安全事业的发展。<br><img src="https://cdn.nlark.com/yuque/0/2021/png/2596791/1625368915298-899f3667-4b54-47c4-a453-673560adf5d0.png#clientId=ufc303325-32c4-4&from=paste&id=u679fb9c6&margin=%5Bobject%20Object%5D&name=image.png&originHeight=514&originWidth=720&originalType=url%E2%88%B6=1&size=457793&status=done&style=shadow&taskId=uf91e10b6-2ad4-44a7-83d5-15eeff00fb0" alt="image.png"><br>校微信公众号宣传（视频是协会宣传片）：</p>
+<h3 id="WHO"><a href="#WHO" class="headerlink" title="WHO"></a>WHO</h3><p>协会<strong>面向全校招新</strong>，包括但不仅限于通信工程、网络安全等相关专业。可能会有一些同学认为计算机学院的就打 ACM、CTF 则让网安的打，但实际上并没有什么固有联系，信息安全是计算机学科的一个方向，在计算机专业也非常适合学习安全。（当然，网安也有 ACM 打得很好的）<br>专业不会成为你加入的门槛，即使是数学、工设、生医、经济、管理这些和计算机关系不大的专业（“不相关”专业的人每年协会都有）。大一刚开始的课业较轻、压力较小，可以留出很多可以自由分配的时间，只要有心学习，专业不会是你的限制。<br>所以即使你是零基础也没关系，你有足够的学习时间和提升空间。协会每届成员至少有一半是从零基础开始学起的。学习最好的开始时间永远是现在。</p>
+<h3 id="WHEN"><a href="#WHEN" class="headerlink" title="WHEN"></a>WHEN</h3><p>协会的招新周期较长，第一学期是协会留给每个人适应与自学的时间，在军训结束后会有 5-6 次培训环节，大概一周一次（遇到考试等暂停），讲 C 语言、Linux、Web、Bin、Windows、网络等。培训实际上只是一个引导、归纳、总结的环节，真正的学习还是要靠平日里自己的积累，协会的招新群中有很多学长（其中不乏已经毕业几年的）随时都能解答问题。<br>2020 年内培训相关的推文都在微信公众号“安协小天使”上，感兴趣的可以自己看看～<br><img src="https://cdn.nlark.com/yuque/0/2021/png/2596791/1625368915384-7c41a212-2618-46c3-80f6-fd9d01bec49b.png#clientId=ufc303325-32c4-4&from=paste&id=u917e9d13&margin=%5Bobject%20Object%5D&name=image.png&originHeight=405&originWidth=720&originalType=url%E2%88%B6=1&size=567704&status=done&style=none&taskId=u0b3bbef0-80c6-4dd4-ad0c-80f4b957ddd" alt="image.png"><br>协会的培训现场<br>寒假时候会安排为期一个多月招新赛（HGAME），由协会成员出题，大家可以通过比赛快速入门 CTF。比赛的排名是你们学习能力的体现，也会作为最终人选的重要评定标准之一。</p>
+<h3 id="WHERE"><a href="#WHERE" class="headerlink" title="WHERE"></a>WHERE</h3><p>协会在哪？协会在第一教学楼北楼通信学院 3 楼 300b 室（简称<strong>一教北 300b</strong>），欢迎来学习、看书，遇到问题也能直接问在协会的学长学姐，不用害怕 233。招新期间（第一学期）对新生开放，多来玩呀～</p>
+<h3 id="HOW"><a href="#HOW" class="headerlink" title="HOW"></a>HOW</h3><p>怎么加入？<br>上面的 when 提到了，大部分成员通过寒假的招新赛（HGAME）选拔出来。另外，只要你觉得你的实力足够，你也可以在任何时候联系我们加入。如果有其他地方有突出的能力我们也会考虑～协会也不会只招打 CTF 的人。<br>怎么学习，怎么入门？<br>前文也提到了，安全的基础在于计算机本身，因此 C 语言是你首先应该掌握的技能。学校一学期的 C 语言课程其实 1-2 个月就能通过自学学完，在此之后再去考虑选择方向的问题，不用操之过急。按照往年情况，能在十月学完 C 语言已经是不错的速度了。在此之后可以了解一下 Linux、网络的基础知识。<br>​</p>
+<p>可以看看 CTF 的 Wiki：<br>​</p>
+<p>想更多了解我们，可以关注微信号：安协小天使～</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://hduguide.github.io/2021/07/04/CTF/" data-id="ckr0k7rck0004vwce33si4tgt" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/hduer/2021/07/04/%E6%9D%AD%E7%94%B5%E8%BD%AC%E4%B8%93%E4%B8%9A%E6%8C%87%E5%8D%97/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          杭电转专业指南
+        
+      </div>
+    </a>
+  
+  
+    <a href="/hduer/2021/07/04/%E5%A4%A7%E5%88%9B%E3%80%81%E4%BA%92%E8%81%94%E7%BD%91+/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">大创、互联网+</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/hduer/archives/2021/07/">July 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hduer/archives/2021/06/">June 2021</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/hduer/2021/07/10/%E5%85%A5%E7%BD%91%E7%AF%87%20%5B%E5%BF%85%E7%9C%8B%5D/">入网篇 [必看]</a>
+          </li>
+        
+          <li>
+            <a href="/hduer/2021/07/10/%E6%96%B0%E7%94%9F%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/">新生常见问题</a>
+          </li>
+        
+          <li>
+            <a href="/hduer/2021/07/10/%E8%80%83%E7%A0%94%E7%AF%87/">考研篇</a>
+          </li>
+        
+          <li>
+            <a href="/hduer/2021/07/04/%E5%A4%96%E5%8D%96/">外卖</a>
+          </li>
+        
+          <li>
+            <a href="/hduer/2021/07/04/%E6%99%9A%E8%87%AA%E4%B9%A0/">晚自习</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2021 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/hduer/" class="mobile-nav-link">Home</a>
+  
+    <a href="/hduer/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/hduer/fancybox/jquery.fancybox.css">
+
+  
+<script src="/hduer/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/hduer/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>

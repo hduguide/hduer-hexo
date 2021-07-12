@@ -19,13 +19,12 @@
     "login": "hduer",
     "repo": "guide",
     "mdNameFormat": "title",
-    "postPath": "./docs",
+    "postPath": "./source/_posts",
     "cachePath": "yuque.json",
-    "adapter": "markdown",
+    "adapter": "hexo",
     "concurrency": 5,
     "onlyPublished": false,
     "onlyPublic": false
-
   },
   "hexo": {
     "version": "5.4.0"
